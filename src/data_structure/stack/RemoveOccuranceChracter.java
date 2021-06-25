@@ -7,7 +7,7 @@ public class RemoveOccuranceChracter {
 
 	public static void main(String[] args) {
 		
-		String result = RemoveOccuranceChracter.removeOccurance("caabbbacc");
+		String result = RemoveOccuranceChracter.removeOccurance("caabbbac");
 		System.out.println(result);
 	}
 	
