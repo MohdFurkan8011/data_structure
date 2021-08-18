@@ -1,4 +1,4 @@
-package data_structure.stack;
+package data_structure.stack.logical;
 
 import java.util.Stack;
 
@@ -6,7 +6,7 @@ public class ReverseParenthesis {
 	
 	public static void main(String args[]) {
 		
-		String expn = ")(())(((";
+		String expn = "(())((()";
 		System.out.println("Expression = " + expn);
 		int count = reverseParenthesis(expn);
 		System.out.println("Reverse Parenthesis is = " + count);
